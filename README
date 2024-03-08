@@ -1,6 +1,9 @@
-The source code was originally published by Francesco Piccinno (nopper) under the github link
-
-https://github.com/nopper/kiwi/
-
 Modified for the undergraduate course MYY601 Operating Systems (Department of Computer Science and 
 Engineering, School of Engineering, University of Ioannina, Greece) by Stergios Anastasiadis. 
+
+We are given a storage engine implemented in the C language. we are asked
+implement the multi-threaded operation of the put and get commands provided by the engine
+storage. Our implementation will allow multiple threads to call the put and
+get simultaneously. The storage engine should perform concurrent operations correctly
+and keep statistics of the execution time of each operation. Our implementation will
+it must be done in the C language and based on the Linux Pthreads library.
